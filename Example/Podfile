@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'google-cast-sdk-dynamic-ios-fd_Example' do
+  pod 'google-cast-sdk-dynamic-ios-fd', :path => '../'
+
+  target 'google-cast-sdk-dynamic-ios-fd_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
