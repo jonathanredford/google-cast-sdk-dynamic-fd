@@ -29,8 +29,20 @@ Pod::Spec.new do |s|
   #   'google-cast-sdk-dynamic-ios-fd' => ['google-cast-sdk-dynamic-ios-fd/Assets/*.png']
   # }
 
+  s.preserve_paths  = 'GoogleCastSDK-ios-4.6.1_dynamic/GoogleCast.framework/Modules/module.modulemap'
+  s.module_map       = 'GoogleCastSDK-ios-4.6.1_dynamic/GoogleCast.framework/Modules/module.modulemap'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Protobuf', '~> 3.0'
+  
+  Pod::Spec.new do |sp|
+      sp.name                   = 'Core'
+      sp.source_files           = 'GoogleCastSDK-ios-4.6.1_dynamic/GoogleCast.framework/Headers/*.h'
+      sp.preserve_paths         = 'GoogleCastSDK-ios-4.6.1_dynamic/GoogleCast.framework'
+      sp.requires_arc           = true
+      sp.vendored_frameworks    = 'GoogleCastSDK-ios-4.6.1_dynamic/GoogleCast.framework'
+      sp.libraries              = 'c++'
+      sp.resources              = [ 'GoogleCastSDK-ios-4.6.1_dynamic/GoogleCast.framework/GoogleCastCoreResources.bundle', 'GoogleCastSDK-ios-4.6.1_dynamic/GoogleCast.framework/GoogleCastUIResources.bundle']
+      end
 end
