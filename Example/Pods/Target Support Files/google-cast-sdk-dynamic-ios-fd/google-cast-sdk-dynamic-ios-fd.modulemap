@@ -1,0 +1,6 @@
+framework module google_cast_sdk_dynamic_ios_fd {
+  umbrella header "google-cast-sdk-dynamic-ios-fd-umbrella.h"
+
+  export *
+  module * { export * }
+}

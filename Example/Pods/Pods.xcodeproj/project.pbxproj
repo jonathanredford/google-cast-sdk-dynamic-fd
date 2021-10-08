@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AAE96B0145803F776FF158DE68B027D /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A219C6CCFABB5EDA01693C08EA7EB3 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3FD3AEF6577D4CA668CE72D5F60F7F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC98BEFB8CC005A2C7EBC1BB055F1B14 /* ReplaceMe.m */; };
+		34B34ACC643E2F68650F5E6013190E12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3B52FC676EEB2032E4EB3B6CECA1B2EC /* Pods-google-cast-sdk-dynamic-ios-fd_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E14521DED85CA941D403CDE324FB1EFC /* Pods-google-cast-sdk-dynamic-ios-fd_Example-dummy.m */; };
+		667D9770B57AB52D78BD51B73F84EDFD /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79EEBFB29C0C942A4300A89BB8CF48 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-dummy.m */; };
+		694B1BE28102174BCDB920634074FF3A /* Pods-google-cast-sdk-dynamic-ios-fd_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCCED45F20A525E26639927F3580F105 /* Pods-google-cast-sdk-dynamic-ios-fd_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A108C5BB5A36F67088AB86C92198D262 /* google-cast-sdk-dynamic-ios-fd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976FD06F96441241F553117833B6075 /* google-cast-sdk-dynamic-ios-fd-dummy.m */; };
+		DDA5C84F00D983689EF3F858BDB92E86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F32B44BA5797EACA69B02A55F910D092 /* google-cast-sdk-dynamic-ios-fd-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5355D0F42E7FC99E1032DC740FF486 /* google-cast-sdk-dynamic-ios-fd-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65FEC167600FA212499DD2304E90469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3854EE83A19E146C4498E56CDDCA358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA6F642575793EB672D5CD0EF154B92;
+			remoteInfo = "google-cast-sdk-dynamic-ios-fd";
+		};
+		F893275460F31E646B04100916D7B306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2059C89BD94C5695F70860602AD7F7AF;
+			remoteInfo = "Pods-google-cast-sdk-dynamic-ios-fd_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0694BC6F73E9E9AB274DFD0CD801ED2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		116E20099DC6F32B6C712AEA71E8EE7D /* Pods-google-cast-sdk-dynamic-ios-fd_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-google-cast-sdk-dynamic-ios-fd_Example-frameworks.sh"; sourceTree = "<group>"; };
+		41198C65D1D01A1B2083A94C291D0C25 /* google-cast-sdk-dynamic-ios-fd.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "google-cast-sdk-dynamic-ios-fd.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A80EA54FE981C9F756269EB1346534F /* google-cast-sdk-dynamic-ios-fd */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "google-cast-sdk-dynamic-ios-fd"; path = google_cast_sdk_dynamic_ios_fd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		530C0C9271DA10E9129E6E3A3C020FD2 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-google-cast-sdk-dynamic-ios-fd_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5E47598ADDFEC07E65866677651439C0 /* Pods-google-cast-sdk-dynamic-ios-fd_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-google-cast-sdk-dynamic-ios-fd_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		655D24B59DA00A31800B218D7B17BF9E /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-google-cast-sdk-dynamic-ios-fd_Tests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7976FD06F96441241F553117833B6075 /* google-cast-sdk-dynamic-ios-fd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "google-cast-sdk-dynamic-ios-fd-dummy.m"; sourceTree = "<group>"; };
+		7A5BDB8F6E8D3CF9DF46F4C7C3154B9E /* Pods-google-cast-sdk-dynamic-ios-fd_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-google-cast-sdk-dynamic-ios-fd_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BD88EA17C230D7E60F829F09FCFBD57 /* Pods-google-cast-sdk-dynamic-ios-fd_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-google-cast-sdk-dynamic-ios-fd_Example"; path = Pods_google_cast_sdk_dynamic_ios_fd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7F15D5CE795DC88B3091BC5534449E /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-google-cast-sdk-dynamic-ios-fd_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82DEA021D810617220A909E1CEFA1C4A /* Pods-google-cast-sdk-dynamic-ios-fd_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-google-cast-sdk-dynamic-ios-fd_Example-Info.plist"; sourceTree = "<group>"; };
+		8300949765DF6B60AAF5437C8C7A1948 /* Pods-google-cast-sdk-dynamic-ios-fd_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-google-cast-sdk-dynamic-ios-fd_Example.modulemap"; sourceTree = "<group>"; };
+		88FEC5E5ED5C84DD61A2B8AEC7A72F84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		97982CE6C8F7EC287F18C890459734D6 /* google-cast-sdk-dynamic-ios-fd-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "google-cast-sdk-dynamic-ios-fd-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1A219C6CCFABB5EDA01693C08EA7EB3 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-google-cast-sdk-dynamic-ios-fd_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B35216900801167040D2C9DF18FF8357 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-google-cast-sdk-dynamic-ios-fd_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B89E90928952B0105DBA60EB4F227904 /* google-cast-sdk-dynamic-ios-fd-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "google-cast-sdk-dynamic-ios-fd-prefix.pch"; sourceTree = "<group>"; };
+		BADA4FDEEB25EF0A37B80B4F66B25E5F /* Pods-google-cast-sdk-dynamic-ios-fd_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-google-cast-sdk-dynamic-ios-fd_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BCCED45F20A525E26639927F3580F105 /* Pods-google-cast-sdk-dynamic-ios-fd_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-google-cast-sdk-dynamic-ios-fd_Example-umbrella.h"; sourceTree = "<group>"; };
+		C501F16911F0735CD92BFBE11B686478 /* Pods-google-cast-sdk-dynamic-ios-fd_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-google-cast-sdk-dynamic-ios-fd_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CACFFF10BE223A9E100B9ED4EAE03F50 /* google-cast-sdk-dynamic-ios-fd.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "google-cast-sdk-dynamic-ios-fd.modulemap"; sourceTree = "<group>"; };
+		DD79EEBFB29C0C942A4300A89BB8CF48 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-google-cast-sdk-dynamic-ios-fd_Tests-dummy.m"; sourceTree = "<group>"; };
+		E14521DED85CA941D403CDE324FB1EFC /* Pods-google-cast-sdk-dynamic-ios-fd_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-google-cast-sdk-dynamic-ios-fd_Example-dummy.m"; sourceTree = "<group>"; };
+		E3B4C90EA2729B4143B715327B863B7E /* google-cast-sdk-dynamic-ios-fd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "google-cast-sdk-dynamic-ios-fd.debug.xcconfig"; sourceTree = "<group>"; };
+		E99ABB78E6B30124B1C46108201D21B5 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-google-cast-sdk-dynamic-ios-fd_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC98BEFB8CC005A2C7EBC1BB055F1B14 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "google-cast-sdk-dynamic-ios-fd/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		F6F3FA3E2C827B7D6F4C2F8D3C03E866 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-google-cast-sdk-dynamic-ios-fd_Tests-Info.plist"; sourceTree = "<group>"; };
+		F8B1EF26915D420F95531D74AE72C2E0 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-google-cast-sdk-dynamic-ios-fd_Tests"; path = Pods_google_cast_sdk_dynamic_ios_fd_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5355D0F42E7FC99E1032DC740FF486 /* google-cast-sdk-dynamic-ios-fd-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "google-cast-sdk-dynamic-ios-fd-umbrella.h"; sourceTree = "<group>"; };
+		FEC2C646DF72B8A4D98B3F6B2031E8F3 /* google-cast-sdk-dynamic-ios-fd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "google-cast-sdk-dynamic-ios-fd.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B1E7FD4EDA029A72DA9F6F821E9BDA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65FEC167600FA212499DD2304E90469 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED87D88B85FD593EB6A4BBA1FC3060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA5C84F00D983689EF3F858BDB92E86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F023939126595CFB623DCC2FA29AD3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B34ACC643E2F68650F5E6013190E12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BE5C319FB339F557C38A3CEA65996B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7343C13A14FCACB856C3E8CE5DB9ED36 /* google-cast-sdk-dynamic-ios-fd */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		29E9814D88121D62ACFB85EA21887A04 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				41198C65D1D01A1B2083A94C291D0C25 /* google-cast-sdk-dynamic-ios-fd.podspec */,
+				88FEC5E5ED5C84DD61A2B8AEC7A72F84 /* LICENSE */,
+				0694BC6F73E9E9AB274DFD0CD801ED2D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4530FB3D2A1C37BB641B003143E778AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A80EA54FE981C9F756269EB1346534F /* google-cast-sdk-dynamic-ios-fd */,
+				7BD88EA17C230D7E60F829F09FCFBD57 /* Pods-google-cast-sdk-dynamic-ios-fd_Example */,
+				F8B1EF26915D420F95531D74AE72C2E0 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D9DF08651CBF5F0EB292E85159BB7AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B62C2514D5EA2B7666B121B6EE104A6C /* Pods-google-cast-sdk-dynamic-ios-fd_Example */,
+				C5DE859EA45891A85F0480D189185C1A /* Pods-google-cast-sdk-dynamic-ios-fd_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4EBDEBCCE99ACC27FC381D783F04812F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CACFFF10BE223A9E100B9ED4EAE03F50 /* google-cast-sdk-dynamic-ios-fd.modulemap */,
+				7976FD06F96441241F553117833B6075 /* google-cast-sdk-dynamic-ios-fd-dummy.m */,
+				97982CE6C8F7EC287F18C890459734D6 /* google-cast-sdk-dynamic-ios-fd-Info.plist */,
+				B89E90928952B0105DBA60EB4F227904 /* google-cast-sdk-dynamic-ios-fd-prefix.pch */,
+				FC5355D0F42E7FC99E1032DC740FF486 /* google-cast-sdk-dynamic-ios-fd-umbrella.h */,
+				E3B4C90EA2729B4143B715327B863B7E /* google-cast-sdk-dynamic-ios-fd.debug.xcconfig */,
+				FEC2C646DF72B8A4D98B3F6B2031E8F3 /* google-cast-sdk-dynamic-ios-fd.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/google-cast-sdk-dynamic-ios-fd";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7343C13A14FCACB856C3E8CE5DB9ED36 /* google-cast-sdk-dynamic-ios-fd */ = {
+			isa = PBXGroup;
+			children = (
+				EC98BEFB8CC005A2C7EBC1BB055F1B14 /* ReplaceMe.m */,
+				29E9814D88121D62ACFB85EA21887A04 /* Pod */,
+				4EBDEBCCE99ACC27FC381D783F04812F /* Support Files */,
+			);
+			name = "google-cast-sdk-dynamic-ios-fd";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B62C2514D5EA2B7666B121B6EE104A6C /* Pods-google-cast-sdk-dynamic-ios-fd_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8300949765DF6B60AAF5437C8C7A1948 /* Pods-google-cast-sdk-dynamic-ios-fd_Example.modulemap */,
+				C501F16911F0735CD92BFBE11B686478 /* Pods-google-cast-sdk-dynamic-ios-fd_Example-acknowledgements.markdown */,
+				7A5BDB8F6E8D3CF9DF46F4C7C3154B9E /* Pods-google-cast-sdk-dynamic-ios-fd_Example-acknowledgements.plist */,
+				E14521DED85CA941D403CDE324FB1EFC /* Pods-google-cast-sdk-dynamic-ios-fd_Example-dummy.m */,
+				116E20099DC6F32B6C712AEA71E8EE7D /* Pods-google-cast-sdk-dynamic-ios-fd_Example-frameworks.sh */,
+				82DEA021D810617220A909E1CEFA1C4A /* Pods-google-cast-sdk-dynamic-ios-fd_Example-Info.plist */,
+				BCCED45F20A525E26639927F3580F105 /* Pods-google-cast-sdk-dynamic-ios-fd_Example-umbrella.h */,
+				5E47598ADDFEC07E65866677651439C0 /* Pods-google-cast-sdk-dynamic-ios-fd_Example.debug.xcconfig */,
+				BADA4FDEEB25EF0A37B80B4F66B25E5F /* Pods-google-cast-sdk-dynamic-ios-fd_Example.release.xcconfig */,
+			);
+			name = "Pods-google-cast-sdk-dynamic-ios-fd_Example";
+			path = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Example";
+			sourceTree = "<group>";
+		};
+		C5DE859EA45891A85F0480D189185C1A /* Pods-google-cast-sdk-dynamic-ios-fd_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				655D24B59DA00A31800B218D7B17BF9E /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.modulemap */,
+				B35216900801167040D2C9DF18FF8357 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-acknowledgements.markdown */,
+				7C7F15D5CE795DC88B3091BC5534449E /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-acknowledgements.plist */,
+				DD79EEBFB29C0C942A4300A89BB8CF48 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-dummy.m */,
+				F6F3FA3E2C827B7D6F4C2F8D3C03E866 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-Info.plist */,
+				B1A219C6CCFABB5EDA01693C08EA7EB3 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-umbrella.h */,
+				E99ABB78E6B30124B1C46108201D21B5 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.debug.xcconfig */,
+				530C0C9271DA10E9129E6E3A3C020FD2 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.release.xcconfig */,
+			);
+			name = "Pods-google-cast-sdk-dynamic-ios-fd_Tests";
+			path = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				07BE5C319FB339F557C38A3CEA65996B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4530FB3D2A1C37BB641B003143E778AE /* Products */,
+				4D9DF08651CBF5F0EB292E85159BB7AE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F4416DA344897BE4B08E935D64EA687 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694B1BE28102174BCDB920634074FF3A /* Pods-google-cast-sdk-dynamic-ios-fd_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8458C0E3CA0272F264018DF25ED720A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32B44BA5797EACA69B02A55F910D092 /* google-cast-sdk-dynamic-ios-fd-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D448D53781109951C5F7D446EA8DA4F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAE96B0145803F776FF158DE68B027D /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2059C89BD94C5695F70860602AD7F7AF /* Pods-google-cast-sdk-dynamic-ios-fd_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE8CEA58814E61358A0D5921D3E9BAC /* Build configuration list for PBXNativeTarget "Pods-google-cast-sdk-dynamic-ios-fd_Example" */;
+			buildPhases = (
+				6F4416DA344897BE4B08E935D64EA687 /* Headers */,
+				1F078CC42BB9F801C656CAD1EBD76A9B /* Sources */,
+				4B1E7FD4EDA029A72DA9F6F821E9BDA9 /* Frameworks */,
+				DF1DF4ABC7515744B0E0ED8F09B259CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD8FCA5F33152A15C8A20574421BACB /* PBXTargetDependency */,
+			);
+			name = "Pods-google-cast-sdk-dynamic-ios-fd_Example";
+			productName = Pods_google_cast_sdk_dynamic_ios_fd_Example;
+			productReference = 7BD88EA17C230D7E60F829F09FCFBD57 /* Pods-google-cast-sdk-dynamic-ios-fd_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		4BA6F642575793EB672D5CD0EF154B92 /* google-cast-sdk-dynamic-ios-fd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0D6BF55C4216303B7D0005AEE3C17C /* Build configuration list for PBXNativeTarget "google-cast-sdk-dynamic-ios-fd" */;
+			buildPhases = (
+				A8458C0E3CA0272F264018DF25ED720A /* Headers */,
+				5280290D051A594584AE56E96C744E5F /* Sources */,
+				F023939126595CFB623DCC2FA29AD3EC /* Frameworks */,
+				09208BBE2DE3D10C631207F9BF8A6E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "google-cast-sdk-dynamic-ios-fd";
+			productName = google_cast_sdk_dynamic_ios_fd;
+			productReference = 4A80EA54FE981C9F756269EB1346534F /* google-cast-sdk-dynamic-ios-fd */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C5EA74373B38A8392A45AC8685014FD /* Pods-google-cast-sdk-dynamic-ios-fd_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27960E3459E7F860759434EC523B3DA8 /* Build configuration list for PBXNativeTarget "Pods-google-cast-sdk-dynamic-ios-fd_Tests" */;
+			buildPhases = (
+				D448D53781109951C5F7D446EA8DA4F2 /* Headers */,
+				A9F6D2D6E74B8D9C1B19F43C7BDEF541 /* Sources */,
+				DDED87D88B85FD593EB6A4BBA1FC3060 /* Frameworks */,
+				C3070FB1CE03F940254A258690EF4370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B50D9B7D437FC2639E84C8B77DE5F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-google-cast-sdk-dynamic-ios-fd_Tests";
+			productName = Pods_google_cast_sdk_dynamic_ios_fd_Tests;
+			productReference = F8B1EF26915D420F95531D74AE72C2E0 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4530FB3D2A1C37BB641B003143E778AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BA6F642575793EB672D5CD0EF154B92 /* google-cast-sdk-dynamic-ios-fd */,
+				2059C89BD94C5695F70860602AD7F7AF /* Pods-google-cast-sdk-dynamic-ios-fd_Example */,
+				6C5EA74373B38A8392A45AC8685014FD /* Pods-google-cast-sdk-dynamic-ios-fd_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09208BBE2DE3D10C631207F9BF8A6E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3070FB1CE03F940254A258690EF4370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1DF4ABC7515744B0E0ED8F09B259CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F078CC42BB9F801C656CAD1EBD76A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B52FC676EEB2032E4EB3B6CECA1B2EC /* Pods-google-cast-sdk-dynamic-ios-fd_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5280290D051A594584AE56E96C744E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A108C5BB5A36F67088AB86C92198D262 /* google-cast-sdk-dynamic-ios-fd-dummy.m in Sources */,
+				0D3FD3AEF6577D4CA668CE72D5F60F7F /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F6D2D6E74B8D9C1B19F43C7BDEF541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667D9770B57AB52D78BD51B73F84EDFD /* Pods-google-cast-sdk-dynamic-ios-fd_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BD8FCA5F33152A15C8A20574421BACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "google-cast-sdk-dynamic-ios-fd";
+			target = 4BA6F642575793EB672D5CD0EF154B92 /* google-cast-sdk-dynamic-ios-fd */;
+			targetProxy = 3854EE83A19E146C4498E56CDDCA358C /* PBXContainerItemProxy */;
+		};
+		D5B50D9B7D437FC2639E84C8B77DE5F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-google-cast-sdk-dynamic-ios-fd_Example";
+			target = 2059C89BD94C5695F70860602AD7F7AF /* Pods-google-cast-sdk-dynamic-ios-fd_Example */;
+			targetProxy = F893275460F31E646B04100916D7B306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0115C89B35D5D3DB34C6C940002227DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99ABB78E6B30124B1C46108201D21B5 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Tests/Pods-google-cast-sdk-dynamic-ios-fd_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Tests/Pods-google-cast-sdk-dynamic-ios-fd_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FDC9636E6B43159B66DE32DDA75DBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC2C646DF72B8A4D98B3F6B2031E8F3 /* google-cast-sdk-dynamic-ios-fd.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/google-cast-sdk-dynamic-ios-fd/google-cast-sdk-dynamic-ios-fd-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/google-cast-sdk-dynamic-ios-fd/google-cast-sdk-dynamic-ios-fd-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/google-cast-sdk-dynamic-ios-fd/google-cast-sdk-dynamic-ios-fd.modulemap";
+				PRODUCT_MODULE_NAME = google_cast_sdk_dynamic_ios_fd;
+				PRODUCT_NAME = google_cast_sdk_dynamic_ios_fd;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3809B297C90783D3F485B2CEC0062862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B4C90EA2729B4143B715327B863B7E /* google-cast-sdk-dynamic-ios-fd.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/google-cast-sdk-dynamic-ios-fd/google-cast-sdk-dynamic-ios-fd-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/google-cast-sdk-dynamic-ios-fd/google-cast-sdk-dynamic-ios-fd-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/google-cast-sdk-dynamic-ios-fd/google-cast-sdk-dynamic-ios-fd.modulemap";
+				PRODUCT_MODULE_NAME = google_cast_sdk_dynamic_ios_fd;
+				PRODUCT_NAME = google_cast_sdk_dynamic_ios_fd;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6F420E6E19C1BE1B64605D746442DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E47598ADDFEC07E65866677651439C0 /* Pods-google-cast-sdk-dynamic-ios-fd_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Example/Pods-google-cast-sdk-dynamic-ios-fd_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Example/Pods-google-cast-sdk-dynamic-ios-fd_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B52D96A7945D5B00F2F3F4664FA6CB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADA4FDEEB25EF0A37B80B4F66B25E5F /* Pods-google-cast-sdk-dynamic-ios-fd_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Example/Pods-google-cast-sdk-dynamic-ios-fd_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Example/Pods-google-cast-sdk-dynamic-ios-fd_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D09CECCED754FF3E6228CF928AFD423B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530C0C9271DA10E9129E6E3A3C020FD2 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Tests/Pods-google-cast-sdk-dynamic-ios-fd_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Tests/Pods-google-cast-sdk-dynamic-ios-fd_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27960E3459E7F860759434EC523B3DA8 /* Build configuration list for PBXNativeTarget "Pods-google-cast-sdk-dynamic-ios-fd_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0115C89B35D5D3DB34C6C940002227DB /* Debug */,
+				D09CECCED754FF3E6228CF928AFD423B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0D6BF55C4216303B7D0005AEE3C17C /* Build configuration list for PBXNativeTarget "google-cast-sdk-dynamic-ios-fd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3809B297C90783D3F485B2CEC0062862 /* Debug */,
+				0FDC9636E6B43159B66DE32DDA75DBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE8CEA58814E61358A0D5921D3E9BAC /* Build configuration list for PBXNativeTarget "Pods-google-cast-sdk-dynamic-ios-fd_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F420E6E19C1BE1B64605D746442DFB /* Debug */,
+				B52D96A7945D5B00F2F3F4664FA6CB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

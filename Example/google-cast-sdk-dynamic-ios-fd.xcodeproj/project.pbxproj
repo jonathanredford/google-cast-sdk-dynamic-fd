@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		672C2DECDC701A6EF5B5C186 /* Pods_google_cast_sdk_dynamic_ios_fd_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_google_cast_sdk_dynamic_ios_fd_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77D1C1C543A1D2B58A8B4584 /* google-cast-sdk-dynamic-ios-fd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "google-cast-sdk-dynamic-ios-fd.podspec"; path = "../google-cast-sdk-dynamic-ios-fd.podspec"; sourceTree = "<group>"; };
+		77D1C1C543A1D2B58A8B4584 /* google-cast-sdk-dynamic-ios-fd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "google-cast-sdk-dynamic-ios-fd.podspec"; path = "../google-cast-sdk-dynamic-ios-fd.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF530F6E804766DAD0DFB123 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AF530F6E804766DAD0DFB123 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AFB7AAAE916DEB2ABAF26B80 /* Pods-google-cast-sdk-dynamic-ios-fd_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-cast-sdk-dynamic-ios-fd_Example.debug.xcconfig"; path = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Example/Pods-google-cast-sdk-dynamic-ios-fd_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D67BECF12A4B5B9AA5F085B1 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-cast-sdk-dynamic-ios-fd_Tests.release.xcconfig"; path = "Target Support Files/Pods-google-cast-sdk-dynamic-ios-fd_Tests/Pods-google-cast-sdk-dynamic-ios-fd_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F5593B470802768EBE0C93D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F5593B470802768EBE0C93D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				010C846788BD31A2DFCD62C2 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.debug.xcconfig */,
 				D67BECF12A4B5B9AA5F085B1 /* Pods-google-cast-sdk-dynamic-ios-fd_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

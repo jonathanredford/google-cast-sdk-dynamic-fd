@@ -8,29 +8,22 @@
 
 Pod::Spec.new do |s|
   s.name             = 'google-cast-sdk-dynamic-ios-fd'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of google-cast-sdk-dynamic-ios-fd.'
+  s.version          = '4.6.1'
+  s.summary          = 'Framework for casting content to Google Cast devices (dynamically-linked version)'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.description      = "Google Cast is a screen-sharing technology that lets a user send and\ncontrol content like video from a small computing device like a phone,\ntablet, or laptop to a large display device like a television.\n\nA sender application running on the sender device uses the Google Cast\nAPI appropriate to its operating system to discover and transmit to the\nreceiver application running on the receiver device. You can use the\nsender APIs to enable your iOS app to send content to a large display.\n Your use of Google Cast SDK is subject to, and by using or downloading any of\nthe related files you agree to comply with, the Google APIs Terms of Service (https://developers.google.com/terms/)\nand the Google Cast SDK Additional Developer Terms of Service (https://developers.google.com/cast/docs/terms/).\n\nStarting with 4.3.1, the google-cast-sdk pod is a (600+MB) statically-linked framework, while google-cast-sdk-dynamic is the 50+MB dynamically-linked version of the same."
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/jonathanredford/google-cast-sdk-dynamic-ios-fd'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jonathanredford' => 'jonathantredford@gmail.com' }
-  s.source           = { :git => 'https://github.com/jonathanredford/google-cast-sdk-dynamic-ios-fd.git', :tag => s.version.to_s }
+  s.homepage         = 'https://developers.google.com/cast/'
+  s.license          = { :type => 'Commercial' }
+  s.author           = { 'Google, Inc.' => 'ttps://developers.google.com/cast/' }
+  s.source           = {
+      "http": "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-ios-4.6.1_dynamic.zip"
+  }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'google-cast-sdk-dynamic-ios-fd/Classes/**/*'
+  s.source_files = 'GoogleCastSDK-ios-4.6.1_dynamic/GoogleCast.framework/Headers/*.h'
   
   # s.resource_bundles = {
   #   'google-cast-sdk-dynamic-ios-fd' => ['google-cast-sdk-dynamic-ios-fd/Assets/*.png']

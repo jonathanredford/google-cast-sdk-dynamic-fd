@@ -1,0 +1,16 @@
+PODS:
+  - google-cast-sdk-dynamic-ios-fd (0.1.0)
+
+DEPENDENCIES:
+  - google-cast-sdk-dynamic-ios-fd (from `../`)
+
+EXTERNAL SOURCES:
+  google-cast-sdk-dynamic-ios-fd:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  google-cast-sdk-dynamic-ios-fd: 6135d95dfcee136f96739c597ca642b6fa1fabf1
+
+PODFILE CHECKSUM: 83fbd8f7fa12ba2a0a4a3ab513964b37fd126425
+
+COCOAPODS: 1.11.2

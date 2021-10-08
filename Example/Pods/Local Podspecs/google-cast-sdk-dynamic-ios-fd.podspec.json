@@ -1,0 +1,22 @@
+{
+  "name": "google-cast-sdk-dynamic-ios-fd",
+  "version": "0.1.0",
+  "summary": "A short description of google-cast-sdk-dynamic-ios-fd.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jonathanredford/google-cast-sdk-dynamic-ios-fd",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jonathanredford": "jonathantredford@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jonathanredford/google-cast-sdk-dynamic-ios-fd.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "google-cast-sdk-dynamic-ios-fd/Classes/**/*"
+}
