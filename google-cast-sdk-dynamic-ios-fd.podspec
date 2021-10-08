@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.description      = "Google Cast is a screen-sharing technology that lets a user send and\ncontrol content like video from a small computing device like a phone,\ntablet, or laptop to a large display device like a television.\n\nA sender application running on the sender device uses the Google Cast\nAPI appropriate to its operating system to discover and transmit to the\nreceiver application running on the receiver device. You can use the\nsender APIs to enable your iOS app to send content to a large display.\n Your use of Google Cast SDK is subject to, and by using or downloading any of\nthe related files you agree to comply with, the Google APIs Terms of Service (https://developers.google.com/terms/)\nand the Google Cast SDK Additional Developer Terms of Service (https://developers.google.com/cast/docs/terms/).\n\nStarting with 4.3.1, the google-cast-sdk pod is a (600+MB) statically-linked framework, while google-cast-sdk-dynamic is the 50+MB dynamically-linked version of the same."
 
   s.homepage         = 'https://developers.google.com/cast/'
-  s.license          = { :type => 'Commercial' }
+  s.license          = { :type => 'Commercial', :text => 'https://developers.google.com/terms/' }
   s.author           = { 'Google, Inc.' => 'ttps://developers.google.com/cast/' }
   s.source           = {
       "http": "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-ios-4.6.1_dynamic.zip"
@@ -32,4 +32,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  spec.dependency 'Protobuf', '~> 3.0
 end
